@@ -1,3 +1,160 @@
+<details>
+<summary>database.json</summary>
+
+````
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Max",
+      "age": 5,
+      "typeId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Bella",
+      "age": 2,
+      "typeId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "George",
+      "age": 5,
+      "typeId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Wilson",
+      "age": 2,
+      "typeId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Bart",
+      "age": 5,
+      "typeId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 6,
+      "name": "Grady",
+      "age": 2,
+      "typeId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 7,
+      "name": "Stinky",
+      "age": 5,
+      "typeId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 8,
+      "name": "Fred",
+      "age": 2,
+      "typeId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 9,
+      "name": "Big Mama",
+      "age": 5,
+      "typeId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 10,
+      "name": "Baby",
+      "age": 1,
+      "typeId": 2,
+      "locationId": 2
+    }
+   ],
+  "types": [
+    {
+      "id": 1,
+      "type": "Cow"
+    },
+    {
+      "id": 2,
+      "type": "Pig"
+    },
+    {
+      "id": 3,
+      "type": "Horse"
+    },
+    {
+      "id": 4,
+      "type": "Goat"
+    },
+    {
+      "id": 5,
+      "type": "Llama"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Green Acres Farm",
+      "address": "123 Main Street"
+    },
+    {
+      "id": 2,
+      "name": "Sunny Meadows Farm",
+      "address": "456 Elm Street"
+    },
+    {
+      "id": 3,
+      "name": "Oakridge Farm",
+      "address": "789 Oak Avenue"
+    },
+    {
+      "id": 4,
+      "name": "Whispering Pines Farm",
+      "address": "987 Maple Lane"
+    }
+  ],
+  "humans": [
+    {
+      "id": 1,
+      "name": "Greg Korte"
+    },
+    {
+      "id": 2,
+      "name": "Caroline Madison"
+    },
+    {
+      "id": 3,
+      "name": "Josh Barton"
+    },
+    {
+      "id": 4,
+      "name": "Jeremy Myers"
+    }
+  ],
+  "adoptions": [
+    {
+      "id": 1,
+      "animalId": 1,
+      "humanId": 1
+    },
+    {
+      "id": 2,
+      "animalId": 2,
+      "humanId": 2
+    }
+  ]
+}
+
+````
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
